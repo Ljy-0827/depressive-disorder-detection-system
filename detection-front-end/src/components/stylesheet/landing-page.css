@@ -1,0 +1,121 @@
+.background-pic{
+    width: 100vw;
+}
+
+.top-box{
+    display: block;
+    position: absolute;
+    top: 8vw;
+    left: 6vw;
+}
+
+.text-header{
+    color: #293450;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.text-content{
+    color: #293450;
+    font-size: 1.2vw;
+    width: 36vw;
+    margin-top: 2vw;
+    line-height: 2.4vw;
+}
+
+.begin-button{
+    background-color: #429675;
+    color: #FFFFFF;
+    width: 12vw;
+    height: 2.8vw;
+    border: solid 1px #429675;
+    border-radius: 12px;
+    font-size: 1.1vw;
+    margin-top: 3vw;
+}
+
+.card-container{
+    width: 100vw;
+    height: 20vw;
+    position: absolute;
+    top: 32vw;
+    display: inline-flex;
+}
+
+.card-first{
+    height: 100%;
+    width: 15vw;
+    margin-left: 5vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 10px 20px 0 rgba(96, 94, 94, 0.12);
+}
+
+.card-mid{
+    height: 100%;
+    width: 15vw;
+    margin-left: 3.75vw;
+    background-color: #FFFFFF;
+    border-radius: 20px;
+    display: block;
+    box-shadow: 0 10px 20px 0 rgba(96, 94, 94, 0.12);
+}
+
+.icon-circle{
+    background-color: #ECF9F5;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    margin-left: 4.5vw;
+    margin-top: 2vw;
+}
+
+.card-title{
+    color: #293450;
+    font-size: 1.2vw;
+    text-align: center;
+    margin-top: 1.5vw;
+}
+
+.card-button{
+    background-color: #429675;
+    color: #FFFFFF;
+    width: 9vw;
+    margin-left: 3vw;
+    height: 2.2vw;
+    border: solid 1px #429675;
+    border-radius: 8px;
+    margin-top: 4.5vw;
+}
+
+.card-button-check-result{
+    background-color: #429675;
+    color: #FFFFFF;
+    width: 9vw;
+    margin-left: 3vw;
+    height: 2.2vw;
+    border: solid 1px #429675;
+    border-radius: 8px;
+    margin-top: 1vw;
+}
+
+.card-button-complete{
+    background-color: #F5F5F5;
+    color: #B9B9B9;
+    width: 9vw;
+    margin-left: 3vw;
+    height: 2.2vw;
+    border: solid 1px #F5F5F5;
+    border-radius: 8px;
+    margin-top: 2.3vw;
+}
+
+#icon-1, #icon-2, #icon-3, #icon-4, #icon-5{
+    color: #429675;
+    font-size: 3vw;
+    line-height: 6vw;
+    text-align: center;
+    margin-left: 1.5vw;
+}
+

@@ -1,0 +1,132 @@
+.view-container{
+    width: 100vw;
+    height: 36vw;
+}
+
+.box-container{
+    height: 28vw;
+    width: 60vw;
+    margin-left: 20vw;
+    border: solid 1px #429675;
+    border-radius: 16px;
+    display: block;
+}
+
+.text-box{
+    white-space: pre-wrap;
+    width: 52vw;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    color: #293450;
+    line-height: 2.4vw;
+    font-size: 1.1vw;
+}
+
+.page-switch-container{
+    display: inline-flex;
+    position: absolute;
+    top: calc(20vw + (28vw - 3.5vw) / 2);
+    left: calc(20vw - 3.5vw - 4vw);
+}
+
+.page-switch-button{
+    width: 3.5vw;
+    height: 3.5vw;
+    border: solid 1px #429675;
+    border-radius: 50%;
+    background-color: #F1FBF8;
+}
+
+#button-right{
+    margin-left: calc(4.5vw + 4.5vw + 3.5vw + 60vw);
+}
+
+#left-arrow, #right-arrow{
+    color: #429675;
+    font-size: 2vw;
+    line-height: 3.5vw;
+    text-align: center;
+}
+
+.read-button{
+    border-radius: 10px;
+    width: 13vw;
+    height: 3.2vw;
+    background-color: #429675;
+    border: solid 1px #429675;
+    color: #FFFFFF;
+    font-size: 1.1vw;
+    margin-left: calc((100vw - 13vw) / 2);
+    margin-top: 2vw;
+}
+
+.mask{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(168, 171, 178, 0.05);
+    top: 0;
+}
+
+
+:deep .el-loading-spinner{
+    margin-top: calc((0px - var(--el-loading-spinner-size))/ 2 - 40px);
+}
+
+
+:deep .el-loading-spinner .path{
+    stroke: #429675 !important;
+}
+
+:deep .el-loading-spinner .el-loading-text{
+    color: #429675;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
+@media screen and (max-width: 1100px) {
+    .view-container {
+        height: 396px;
+        width: 1100px;
+    }
+
+    .box-container {
+        height: 308px;
+        width: 660px;
+        margin-left: 220px;
+    }
+
+    .text-box{
+        width: 572px;
+        margin-left: 44px;
+        margin-top: 33px;
+        line-height: 26.4px;
+        font-size: 12.1px;
+    }
+
+    .page-switch-container{
+        display: inline-flex;
+        position: absolute;
+        top: 354.7px;
+        left: 137.5px;
+    }
+
+    .page-switch-button{
+        width: 38.5px;
+        height: 38.5px;
+        border: solid 1px #429675;
+        border-radius: 50%;
+        background-color: #F1FBF8;
+    }
+
+    #button-right{
+        margin-left: 797.5px;
+    }
+
+    #left-arrow, #right-arrow{
+        font-size: 22px;
+        line-height: 38.5px;
+    }
+}

@@ -1,0 +1,200 @@
+.top-container{
+    display: block;
+    height: 20vw;
+}
+
+.main-emotion-pic-container{
+    display: block;
+}
+
+.top-banner-pic{
+    width: 100vw;
+}
+
+.title-box{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px 0 rgba(96, 94, 94, 0.12);
+    position: absolute;
+    top: 10vw;
+    z-index: 2;
+    width: 48vw;
+    margin-left: 26vw;
+    height: 8vw;
+    display: block;
+}
+
+.page-title{
+    text-align: center;
+    color: #429675;
+    font-family: "Songti SC";
+    font-size: 1.6vw;
+    margin-top: 1.4vw;
+}
+
+.page-description{
+    text-align: center;
+    color: #293450;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    font-weight: 400;
+}
+
+/* ------ STEP BAR ------ */
+.step-bar-container{
+    width: 60vw;
+    margin-left: 20vw;
+    position: absolute;
+    top: 3vw;
+}
+
+:deep .el-step__head.is-wait {
+    color: #429675;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-process {
+    color: #429675;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-finish {
+    color: #FFFFFF;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-finish .el-step__icon.is-text{
+    background-color: #429675;
+}
+
+:deep .el-step__icon.is-text {
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+:deep .el-step__icon-inner {
+    font-weight: 450;
+    line-height: 1;
+    color: inherit;
+}
+
+:deep .el-step__icon {
+    width: 2vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+:deep .el-step__title {
+    font-size: 1vw;
+    line-height: 3.5vw;
+}
+
+:deep .el-step__title.is-wait {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step__title.is-process {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step__title.is-finish {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step.is-horizontal .el-step__line {
+    height: 1px;
+    top: 12px;
+}
+
+:deep .el-step__line {
+    position: absolute;
+    border-color: #A8ABB2;
+    background-color: #A8ABB2;
+}
+
+:deep .el-step__line-inner {
+    border: solid 1px #429675;
+}
+
+:deep .el-loading-spinner{
+    margin-top: calc((0px - var(--el-loading-spinner-size))/ 2 - 40px);
+}
+
+
+:deep .el-loading-spinner .path{
+    stroke: #429675 !important;
+}
+
+:deep .el-loading-spinner .el-loading-text{
+    color: #429675;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.bottom-container{
+    height: 36vw;
+    width: 100vw;
+}
+
+.mask{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(168, 171, 178, 0.05);
+}
+
+@media screen and (max-width: 1100px) {
+    .top-container {
+        height: 220px;
+    }
+
+    .top-banner-pic {
+        width: 1100px;
+    }
+
+    .step-bar-container {
+        width: 660px;
+        margin-left: 220px;
+        position: absolute;
+        top: 33px;
+    }
+
+    :deep .el-step__title {
+        font-size: 12px;
+        line-height: 38.5px;
+    }
+
+    :deep .el-step__icon {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .title-box {
+        top: 110px;
+        z-index: 2;
+        width: 528px;
+        margin-left: 286px;
+        height: 88px;
+    }
+
+    .page-title {
+        font-size: 17.6px;
+        margin-top: 15.4px;
+    }
+
+    .page-description {
+        font-size: 12.1px;
+        margin-top: 11px;
+    }
+
+    .bottom-container{
+        height: 396px;
+        width: 1100px;
+    }
+}

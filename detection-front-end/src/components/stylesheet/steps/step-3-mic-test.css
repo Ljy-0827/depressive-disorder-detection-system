@@ -1,0 +1,140 @@
+.view-container{
+    width: 100vw;
+    height: 36vw;
+}
+
+.box-container{
+    height: 28vw;
+    width: 64vw;
+    margin-left: 18vw;
+    border: solid 1px #429675;
+    border-radius: 16px;
+    display: block;
+}
+
+.box-text{
+    color: #293450;
+    font-size: 1.1vw;
+    text-align: center;
+    line-height: 2vw;
+    height: 2vw;
+    margin-top: calc((28vw - 2vw - 3vw - 3vw) / 2);
+}
+
+.box-button-primary{
+    background-color: #429675;
+    color: #FFFFFF;
+    height: 3vw;
+    border: solid 1px #429675;
+    font-size: 1.1vw;
+    border-radius: 8px;
+    margin-top: 3vw;
+}
+
+#open-mic{
+    width: 18vw;
+    margin-left: calc((64vw - 18vw) / 2);
+}
+
+#stop-record{
+    width: 10vw;
+    margin-left: calc((64vw - 10vw) / 2);
+}
+
+.box-button-group{
+    display: inline-flex;
+    margin-left: calc((64vw - 10vw - 2vw - 10vw - 2vw - 18vw) / 2);
+}
+
+.box-button-ghost{
+    background-color: #FFFFFF;
+    color: #429675;
+    height: 3vw;
+    border: solid 1px #429675;
+    font-size: 1.1vw;
+    border-radius: 8px;
+    margin-top: 3vw;
+}
+
+#play-audio{
+    width: 10vw;
+}
+
+#stop-audio{
+    width: 10vw;
+}
+
+#try-again{
+    width: 10vw;
+    margin-left: 2vw;
+}
+
+#finish{
+    margin-left: 2vw;
+    width: 18vw;
+}
+
+@media screen and (max-width: 1100px) {
+    .view-container{
+        height: 396px;
+        width: 1100px;
+    }
+
+    .box-container{
+        height: 308px;
+        width: 704px;
+        margin-left: 198px;
+    }
+
+    .box-text{
+        font-size: 12.1px;
+        line-height: 22px;
+        height: 22px;
+        margin-top: calc((308px - 22px - 33px - 33px) / 2);
+    }
+
+    .box-button-primary{
+        height: 33px;
+        font-size: 12.1px;
+        margin-top: 33px;
+    }
+
+    #open-mic{
+        width: 198px;
+        margin-left: calc((704px - 198px) / 2);
+    }
+
+    #stop-record{
+        width: 110px;
+        margin-left: calc((704px - 110px) / 2);
+    }
+
+    .box-button-group{
+        display: inline-flex;
+        margin-left: calc((242px) / 2);
+    }
+
+    .box-button-ghost{
+        height: 33px;
+        font-size: 12.1px;
+        margin-top: 33px;
+    }
+
+    #play-audio{
+        width: 110px;
+    }
+
+    #stop-audio{
+        width: 110px;
+    }
+
+    #try-again{
+        width: 110px;
+        margin-left: 22px;
+    }
+
+    #finish{
+        margin-left: 22px;
+        width: 198px;
+    }
+}

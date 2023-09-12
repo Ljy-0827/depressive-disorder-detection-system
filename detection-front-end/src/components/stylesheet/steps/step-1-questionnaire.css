@@ -1,0 +1,299 @@
+.top-container{
+    display: block;
+    height: 20vw;
+}
+
+.main-emotion-pic-container{
+    display: block;
+}
+
+.top-banner-pic{
+    width: 100vw;
+}
+
+.title-box{
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 20px 0 rgba(96, 94, 94, 0.12);
+    position: absolute;
+    top: 10vw;
+    z-index: 2;
+    width: 48vw;
+    margin-left: 26vw;
+    height: 8vw;
+    display: block;
+}
+
+.page-title{
+    text-align: center;
+    color: #429675;
+    font-family: "Songti SC";
+    font-size: 1.6vw;
+    margin-top: 1.4vw;
+}
+
+.page-description{
+    text-align: center;
+    color: #293450;
+    font-size: 1.1vw;
+    margin-top: 1vw;
+    font-weight: 400;
+}
+
+/* ------ STEP BAR ------ */
+.step-bar-container{
+    width: 60vw;
+    margin-left: 20vw;
+    position: absolute;
+    top: 3vw;
+}
+
+:deep .el-step__head.is-wait {
+    color: #429675;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-process {
+    color: #429675;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-finish {
+    color: #FFFFFF;
+    border-color: #429675;
+}
+
+:deep .el-step__head.is-finish .el-step__icon.is-text{
+    background-color: #429675;
+}
+
+:deep .el-step__icon.is-text {
+    border-radius: 50%;
+    border: 1px solid;
+    border-color: inherit;
+}
+
+:deep .el-step__icon-inner {
+    font-weight: 450;
+    line-height: 1;
+    color: inherit;
+}
+
+:deep .el-step__icon {
+    width: 2vw;
+    height: 2vw;
+    font-size: 1vw;
+}
+
+:deep .el-step__title {
+    font-size: 1vw;
+    line-height: 3.5vw;
+}
+
+:deep .el-step__title.is-wait {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step__title.is-process {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step__title.is-finish {
+    color: #293450;
+    font-weight: 400;
+}
+
+:deep .el-step.is-horizontal .el-step__line {
+    height: 1px;
+    top: 12px;
+}
+
+:deep .el-step__line {
+    position: absolute;
+    border-color: #A8ABB2;
+    background-color: #A8ABB2;
+}
+
+:deep .el-step__line-inner {
+    border: solid 1px #429675;
+}
+
+.scroll-container{
+    height: 27.5vw;
+    width: 44vw;
+    margin-left: 28vw;
+    margin-top: 0.5vw;
+}
+
+.question-wrapper{
+    display: inline-flex;
+}
+
+.question-index{
+    color: #429675;
+    width: 2.4vw;
+    font-size: 1.1vw;
+    line-height: 22px;
+    height: 22px;
+    font-weight: 450;
+}
+
+:deep .el-form-item__label{
+    font-size: 1.1vw;
+    color: #293450;
+    line-height: 22px;
+    height: 22px;
+    font-weight: 450;
+}
+
+:deep .el-radio__label{
+    font-size: 1vw;
+    font-weight: 400;
+    color: #293450;
+    padding-left: 14px;
+    padding-right: 12px;
+}
+
+:deep .el-radio-group{
+    margin-top: 0.6vw;
+    margin-bottom: 1.4vw;
+}
+
+.complete-button{
+    border-radius: 10px;
+    width: 13vw;
+    height: 3.2vw;
+    background-color: #429675;
+    border: solid 1px #429675;
+    color: #FFFFFF;
+    font-size: 1.1vw;
+    margin-left: calc((100vw - 13vw) / 2);
+    margin-top: 2vw;
+}
+
+:deep .el-radio__input.is-checked+.el-radio__label{
+    color: #429675;
+}
+
+:deep .el-radio__input.is-checked .el-radio__inner{
+    border-color: #429675;
+    background: #429675;
+}
+
+:deep .el-radio__inner:hover{
+    border-color: #429675;
+}
+
+:deep .el-loading-spinner{
+    margin-top: calc((0px - var(--el-loading-spinner-size))/ 2 - 40px);
+}
+
+
+:deep .el-loading-spinner .path{
+    stroke: #429675 !important;
+}
+
+:deep .el-loading-spinner .el-loading-text{
+    color: #429675;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.mask{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 100;
+    background-color: rgba(168, 171, 178, 0.05);
+}
+
+@media screen and (max-width: 1100px) {
+    .top-container {
+        height: 220px;
+    }
+
+    .top-banner-pic {
+        width: 1100px;
+    }
+
+    .step-bar-container {
+        width: 660px;
+        margin-left: 220px;
+        position: absolute;
+        top: 33px;
+    }
+
+    :deep .el-step__title {
+        font-size: 12px;
+        line-height: 38.5px;
+    }
+
+    :deep .el-step__icon {
+        width: 22px;
+        height: 22px;
+        font-size: 12px;
+    }
+
+    .title-box {
+        top: 110px;
+        z-index: 2;
+        width: 528px;
+        margin-left: 286px;
+        height: 88px;
+    }
+
+    .page-title {
+        font-size: 17.6px;
+        margin-top: 15.4px;
+    }
+
+    .page-description {
+        font-size: 12.1px;
+        margin-top: 11px;
+    }
+
+    :deep .el-radio__label{
+        font-size: 12px;
+        font-weight: 400;
+        color: #293450;
+    }
+
+    :deep .el-radio-group{
+        margin-top: 6.6px;
+        margin-bottom: 15.4px;
+    }
+
+    .scroll-container{
+        height: 302.5px;
+        width: 484px;
+        margin-left: 308px;
+        margin-top: 5.5px;
+    }
+
+    .question-index{
+        width: 26.4px;
+        font-size: 12.1px;
+        line-height: 22px;
+    }
+
+    :deep .el-form-item__label{
+        font-size: 12.1px;
+        line-height: 22px;
+        height: 22px;
+    }
+
+    :deep .el-radio-group{
+        margin-top: 6.6px;
+        margin-bottom: 15.4px;
+    }
+
+    .complete-button{
+        width: 143px;
+        height: 35.2px;
+        font-size: 12.1px;
+        margin-left: calc((957px) / 2);
+        margin-top: 22px;
+    }
+}
