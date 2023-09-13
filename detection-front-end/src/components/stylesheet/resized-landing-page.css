@@ -1,0 +1,136 @@
+.main-canvas{
+    border: dashed 1px gray;
+    height: 100vh;
+    width: 70vh;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: inline-block;
+    background-color: #E8F3F5;
+}
+
+.banner{
+    width: 68vh;
+    margin-left: 2vh;
+    margin-top: -1vh;
+}
+
+.main-title{
+    color: #144A5D;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 5.5vh;
+    position: absolute;
+    top: 10.5vh;
+}
+
+.main-description{
+    color: #293450;
+    font-weight: 300;
+    font-size: 14px;
+    margin-left: 5.5vh;
+    position: absolute;
+    top: 17vh;
+    width: 36vh;
+    line-height: 24px;
+}
+
+.main-button{
+    border-radius: 10px;
+    background: #055596;
+    border: none;
+    height: 3.8vh;
+    line-height: 3.8vh;
+    text-align: center;
+    width: 16vh;
+    color: white;
+    font-size: 12px;
+    margin-left: 5.5vh;
+    position: absolute;
+    top: 26.5vh;
+    cursor: pointer;
+}
+
+.main-button:hover{
+    opacity: 0.85;
+    transition: 0.3s;
+}
+
+.main-box{
+    width: 66vh;
+    margin-left: 2vh;
+    height: 64.5vh;
+    margin-top: -2.5vh;
+    background-color: white;
+    border-radius: 36px 36px 0 0;
+    z-index: 10;
+    position: absolute;
+}
+
+.box-title{
+    color: #237590;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 4vh;
+    margin-left: 5vh;
+}
+
+.box-card-row{
+    display: inline-flex;
+}
+
+.box-card{
+    background-color: white;
+    width: 17vh;
+    height: 23.5vh;
+    margin-left: 2.5vh;
+    box-shadow: 0 7px 14px 0 rgba(96, 94, 94, 0.12);
+    border-radius: 16px;
+    display: block;
+}
+
+.icon-bg{
+    background-color: #E3F8F8;
+    width: 6.5vh;
+    height: 6.5vh;
+    border-radius: 50%;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    color: #1FB4BB;
+    font-size: 22px;
+    text-align: center;
+    line-height: 6.5vh;
+}
+
+.card-title{
+    color: #144A5D;
+    font-size: 13px;
+    font-weight: 500;
+    width: 17vh;
+    text-align: center;
+    margin-top: 1.5vh;
+}
+
+.card-description{
+    color: #144A5D;
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 1.5vh;
+    width: 12vh;
+    margin-left: 2.5vh;
+    line-height: 18px;
+}
+
+.know-more-button{
+    color: #1FB4BB;
+    font-size: 12px;
+    width: 8vh;
+    text-align: center;
+    margin-left: 4.5vh;
+    text-decoration: underline;
+    margin-top: 2vh;
+    cursor: pointer;
+}

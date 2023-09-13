@@ -21,6 +21,10 @@ import CompleteAll from "@/components/CompleteAll.vue";
 import CompleteSingle from "@/components/CompleteSingle.vue";
 import SingleWatch from "@/components/SingleWatch.vue";
 import ResultDashboard from "@/components/ResultDashboard.vue";
+import ResultPage from "@/components/ResultPage.vue";
+import ResizedStep1 from "@/components/ResizedStep1.vue";
+import ResizedStep2 from "@/components/ResizedStep2.vue";
+import ResizedLandingPage from "@/components/ResizedLandingPage.vue";
 
 const myRouter = createRouter({
     history: createWebHistory(import.meta.env.BASE_URL),
@@ -28,6 +32,11 @@ const myRouter = createRouter({
         {
             path: '/',
             name: 'landing-page',
+            component: ResizedLandingPage
+        },
+        {
+            path: '/index',
+            name: 'home-page',
             component: LandingPage
         },
         {
@@ -80,6 +89,22 @@ const myRouter = createRouter({
             name: 'result-dashboard',
             component: ResultDashboard,
         },
+        {
+            path:'/result',
+            name: 'result',
+            component: ResultPage,
+        },
+        {
+            path: '/1',
+            name: 'resized-step1',
+            component: ResizedStep1,
+        },
+        {
+            path: '/2',
+            name: 'resized-step2',
+            component: ResizedStep2,
+        },
+
         {
             path: '/3_read',
             name: 'read',
