@@ -17,21 +17,21 @@
           <div class="result-text-title" style="margin-top: 4px">{{ this.resultDegree }}</div>
         </div>
         <div class="doctor-button" v-show="this.needDoctor">
-          <i class="bi bi-info-circle" style="margin-right: 6px;"></i>
+          <i class="bi bi-info-circle" style="margin-right: 1vw;"></i>
           建议就医
         </div>
       </div>
       <div class="multifunctional-box">
         <div class="score-box">
-          <div class="result-text" style="line-height: 8vh;">测试分数：</div>
-          <div class="result-text-title" style="line-height: 8vh;">{{this.resultScore}}/27</div>
+          <div class="score-text">测试分数：</div>
+          <div class="score-text-title">{{this.resultScore}}/27</div>
         </div>
         <div class="function-button-vertical-group">
           <div class="function-button-horizontal-group">
             <div class="function-button">打印结果报告</div>
             <div class="function-button">将结果发至邮箱</div>
           </div>
-          <div class="function-button-horizontal-group" style="margin-top: 1vh">
+          <div class="function-button-horizontal-group" style="margin-top: 0.9vh">
             <div class="function-button">回顾作答情况</div>
             <div class="function-button">重新参与测试</div>
           </div>
@@ -47,18 +47,20 @@
         </div>
         -->
       </div>
-      <div class="text-box1" style="margin-top: 6.3vh">
-        您的测试分数处于{{this.section}}分区间，指示您<span>{{this.resultDegree}}</span>。
-      </div>
       <div class="text-box1">
-        {{this.recommendation}}。
+        您的测试分数处于{{this.section}}分区间，指示您<span id="green-span">{{this.resultDegree}}</span>。{{this.recommendation}}。若您正处于或您了解有人处于自杀危机之中，可以拨打<span>400-161-9995</span>或<span>120</span>获取专业的帮助。
       </div>
       <div class="text-box2">
-        一般来说，抑郁症不是一种患者可以自行治疗的疾病。但是，自助方案也能带来很大的帮助。您可以参考我们提供的自助调节方法介绍，通过亲戚好友的帮助、自我生活习惯的调节等方式使症状得以缓解。
+        一般来说，抑郁症不是一种患者可以自行治疗的疾病。但是，自助方案也能带来很大的帮助。除了谨遵医嘱坚持专业治疗外，以下方案也能够帮助您缓解症状：
+        <ul class="text-ul">
+          <li class="text-li">全方位了解抑郁症，可以鼓励您的家人和您一起，让您获得更好的理解和支持。</li>
+          <li class="text-li">养成记录症状的习惯，便于监控康复过程中的警告或危险信号。</li>
+          <li class="text-li">尝试从饮食、运动、睡眠等角度调节生活方式，避免饮酒和使用其他成瘾物质，减少咖啡因摄入，同时获取更多的维生素D。</li>
+        </ul>
       </div>
-<!--
+    <!--
       <div class="text-box3">
-        *注：需排除双向情感障碍、正常的丧亲之痛和导致抑郁症的医学障碍等情况，才能作出最终判断。
+        *注：检测结果需排除双向情感障碍、正常的丧亲之痛和导致抑郁症的医学障碍等情况，才能作出最终判断。
       </div>
       -->
 
@@ -144,6 +146,6 @@ export default {
 </script>
 
 <style scoped>
-@import "@/components/stylesheet/result-page.css";
+@import "@/components/stylesheet/resized-result-page.css";
 
 </style>
